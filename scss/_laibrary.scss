@@ -1,0 +1,56 @@
+.laibrary {
+    margin-bottom: 140px;
+    &-heading {
+        text-align: center;
+    }
+    &-text {
+        text-align: center;
+        font-size: 18px;
+        max-width: 326px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    &-tabs {
+        display: flex;
+        justify-content: center;
+        margin-top: 32px;
+        align-items: center;
+    }
+    &-tab {
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: calc(26 / 21);
+        padding: 12px 25px;
+        border-radius: 12px;
+        transition: all 0.2s linear;
+        &.is-activate {
+            background-color: var(--gray1e);
+            color: var(--primary-yellow);
+        }
+    }
+    &-list {
+        display: grid;
+        grid-template-columns: repeat(3,minmax(0,1fr));
+        gap: 30px;
+        margin-top: 86px;
+        margin-bottom: 38px;
+    }
+    &-image {
+        display: block; 
+        height: 227px;
+        margin-bottom: 20px;
+    }
+    &-category {
+        font-size: 18px;
+        display: inline-block;
+        font-weight: 600;
+        line-height: calc(22 / 17);
+        color: var(--primary-color);
+    }
+    &-btn {
+        display: flex;
+        max-width: 210px;
+        margin: auto;
+    }
+}

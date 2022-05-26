@@ -1,0 +1,52 @@
+.testmonials {
+    margin-top: 140px;
+    &-header {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 72px;
+    }
+    &-heading {
+        text-align: center;
+        max-width: 596px;
+    }
+    &-main {
+        display: flex;
+        gap: 77px;
+        align-items: center;
+        position: relative;
+        padding-bottom: 52px;
+    }
+    &-arrow {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        &-list {
+            display: flex;
+            list-style: none;
+            gap: 8px;
+            :nth-child(1) {
+                background-color: var(--grayc5);
+                i {
+                    color: var(--black);
+                }
+            }
+            :nth-child(2) {
+                background-color: var(--primary-color);
+                i {
+                    background-color: transparent;
+                    color: var(--while);
+                }
+            }
+        }
+        &-item {
+            width: 59px;
+            height: 57px;
+            border-radius: 16px;
+            display: flex;
+            cursor: pointer;
+            i {
+                margin: auto;
+            }
+        }
+    }
+}

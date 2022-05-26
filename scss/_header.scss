@@ -1,6 +1,8 @@
 .header {
     background-color: var(--gray1e);
     padding: 44px 0 1px;
+    position: relative;
+    height: 891px;
     &__top {
         display:flex;
         justify-content: space-between;
@@ -53,5 +55,8 @@
             color: var(--while);
             font-size: 18px;
         }
+    }
+    &__img {
+        position: absolute;
     }
 }

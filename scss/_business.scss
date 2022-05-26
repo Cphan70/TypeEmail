@@ -1,0 +1,33 @@
+.business {
+    background-color: var(--gray1e);
+    &-main {
+        display: flex;
+        padding: 59px 0px 68px 0px;
+        gap: 81px;
+    }
+    &-heading {
+        color: var(--while);
+        font-size: 600;
+        font-size:  50px;
+        line-height: calc(60 / 50);
+        margin-top: 96px;
+
+    }
+    &-title {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: calc(28 / 18);
+        color: var(--grayaf);
+        max-width: 362px;
+        margin-bottom: 41px;
+    }
+    &-btn {
+        display: flex;
+        max-width: 260px;
+        &-text {
+            font-size: 18px;
+            font-weight: 400;
+            margin-right: 19px;
+        }
+    }
+}

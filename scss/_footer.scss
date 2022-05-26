@@ -1,0 +1,17 @@
+.footer {
+    background-color: var(--gray1e);
+    padding-bottom: 76px;
+    &-heading {
+        color: var(--while);
+        text-align: center;
+        padding-top: 70px;
+        margin-bottom: 15px;
+    }
+    &-title {
+        font-size: 18px;
+        text-align: center;
+        max-width: 339px;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+}
