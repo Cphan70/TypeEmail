@@ -2,7 +2,7 @@
     background-color: var(--gray1e);
     padding: 44px 0 1px;
     position: relative;
-    height: 891px;
+    padding-bottom: 425px;
     &__top {
         display:flex;
         justify-content: space-between;
@@ -59,4 +59,20 @@
     &__img {
         position: absolute;
     }
+    @media screen and (max-width: 1023px) {
+        padding-bottom: 163px;
+        &__heading {
+            font-size: 30px;
+        }
+        &__works {
+            span {
+                display: none;
+            }
+        }
+        &__img {
+            margin: 0 auto;
+        }
+  }
+
 }
+

@@ -49,4 +49,13 @@
             }
         }
     }
+    @media screen and (max-width: 1023px) {
+        &-header {
+            flex-direction: column;
+        }
+        &-main {
+            flex-direction: column;
+        }
+        
+    }
 }

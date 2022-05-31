@@ -3,14 +3,14 @@
         margin-bottom: 95px;
         text-align: center;
         .heading--big {
-            max-width: 629px;
+            // max-width: 629px;
             margin: 140px auto 18px;
         }
         .text {
             font-size: 18px;
             font-weight: 400;
             color: var(--gray54);
-            max-width: 472px;
+            // max-width: 472px;
             margin: 0 auto;
         }
     }
@@ -63,5 +63,19 @@
         flex-shrink: 0;
         max-width: 484px;
         height: 519px;
+    }
+    @media screen and (max-width: 1023px) {
+        &-main { 
+            flex-direction: column-reverse;
+        }
+        &-list {
+            flex-direction: column;
+        }
+        &-title {
+            font-size: 24px;
+            &-text {
+                font-size: 14px;
+            }
+        }
     }
 }

@@ -32,7 +32,7 @@
     &-list {
         display: grid;
         grid-template-columns: repeat(3,minmax(0,1fr));
-        gap: 30px;
+        grid-gap: 30px;
         margin-top: 86px;
         margin-bottom: 38px;
     }
@@ -52,5 +52,14 @@
         display: flex;
         max-width: 210px;
         margin: auto;
+    }
+    @media screen and (max-width: 1023px) {
+        margin-top: 64px;
+       &-list {
+           grid-template-columns: 100%;
+       }
+       &-title {
+           font-size: 22px;
+       }
     }
 }
